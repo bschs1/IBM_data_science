@@ -21,7 +21,11 @@ print(a.size) # tamanho do array
 print(a.ndim) # número de dimensões do array
 print(a.shape) # é uma tupla que mostra o numero de elementos em cada dimensão do array
 mean = a.mean() # Basciamente tira a média
-print(mean) #é a media
+print('média é:', mean) #é a media
+max_a = a.max()
+min_a = a.min()
+print(f'O minimo é: {min_a} ,e o máximo é: {max_a}')
+separador()
 b = np.array([3.1,11.02,6.2,213.2,5.2])
 print(b) # mostrando o array
 print(type(b)) # tipo de array
