@@ -6,7 +6,8 @@ import pandas as pd
 # fatiando usando loc df.loc[2:3] (neste método a final e a inicial conta n é q nem o python chatao)
 # chamando diretamente pela linha: df.loc['1, Artist']
 # podemos utilizar operadores lógicos: df.loc[(df['Superstar']*100) >= 10] (btw isso é de outro data set so estou alocando a informação)
-
+# loc obtem linhas ou colunas pelo label especifico do índice
+# iloc obtem linhas ou colunas em posições específicas pelo ÍNDICE, usando números inteiros
 
 def separador():
     print('-' * 100)
