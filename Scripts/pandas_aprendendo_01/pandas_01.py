@@ -5,7 +5,7 @@ import pandas as pd
 # podemos usar o loc assim ó: df.loc[[5]] pra chamar pelo índice, ou df.loc[[0,1,2]], neste segundo jeito veremos os elemtnos 0, 1, 2
 # fatiando usando loc df.loc[2:3] (neste método a final e a inicial conta n é q nem o python chatao)
 # chamando diretamente pela linha: df.loc['1, Artist']
-# chamando pelo array:
+# podemos utilizar operadores lógicos: df.loc[(df['Superstar']*100) >= 10] (btw isso é de outro data set so estou alocando a informação)
 
 
 def separador():
