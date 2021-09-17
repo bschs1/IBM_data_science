@@ -56,3 +56,11 @@ for n, m in zip(u,v): #zip é um método pra retornar um iterador nas tuplas no 
     z.append(n+m)
     print(z)
 
+separador()
+#agora usando numpy
+
+u = np.array([1,0])
+v = np.array([0,1])
+z = u + v
+print(z)
+
