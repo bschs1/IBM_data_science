@@ -10,6 +10,8 @@ import matplotlib as plt
     # Basic Operations
     # Funções Universais
 
+print('NESTE ARQUIVO SÃO TUDO RELACIONADO A ARRAY 1D')
+
 def separador():
     print('************************************************************************\n' )
 
