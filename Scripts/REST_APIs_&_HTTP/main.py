@@ -63,4 +63,4 @@ print('fazendo um post request usa-se post() e a variavel payload é pro paramet
 r_post = requests.post(url_post, data = payload)
 print("POST request URL:",r_post.url )
 print("GET request URL:",r.url)
-print(r_post.json()['form'], 'Visualizar em Json') # vendo em JSON
+print(r_post.json()['form'], 'Visualizar em Json') # vendo em JSON a
